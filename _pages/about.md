@@ -11,11 +11,16 @@ work hard, play harder.
 
 教育背景
 ======
-NUC--[North University of China](http://www.nuc.edu.cn/)
+[NUC--North University of China](http://www.nuc.edu.cn/)
+
 中北大学软件学院(2023年09月————2027年06月)
+
 GPA：3.89
+
 软件工程本科
+
 Software engineering
+
 
 专业技能
 ======
