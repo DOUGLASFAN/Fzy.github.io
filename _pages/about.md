@@ -1,47 +1,66 @@
 ---
 permalink: /
-title: "苏晓宇的博客"
+title: "范振宇的个人主页"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-1
+work hard, play harder.
 
 教育背景
 ======
-NUC--(http://www.nuc.edu.cn/)
+NUC--[North University of China](http://www.nuc.edu.cn/)
+中北大学软件学院(2023年09月————2027年06月)
+GPA：3.89
+软件工程本科
+Software engineering
 
-Getting started
+专业技能
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+·拥有甲骨文云架构数据基础认证、Databricks生成式人工智能基础、AWS Educate 安全性入门等认证;
+·掌握Python的异常处理，面向对象编程，Json数据的处理，掌握pyecharts、echarts等可视化图表库，熟悉flask框架搭建，掌握前后端分离流程，了解机器学习的基本知识，熟悉SnowNLP等技术；
+·掌握Java基本知识，熟悉流程控制、常用API、集合框架、IO流、文件、日志、多线程、网络通讯等技术;
+·掌握前端 Vue.js, HTML, CSS, JavaScript, ElementUI, Ajax, Axios等主流技术；
+·掌握后端：SpringBoot, SpringMVC, JDBC, MyBatis, MySQL, SSM(Spring,SpringMVC,MyBatis),  Filter, Interceptor;
+·掌握基本企业开发流程：需求分析,数据库设计,接口文档,功能实现,测试,会话跟踪与令牌验证(Cookie,Session,JWT)，IOC,DI(Spring),数据库表设计;
+·掌握C++、C#、Java基本的语法结构，并实际应用到项目中：基于EasyX的飞机订票系统；《Pink Man》游戏;
 
-Site-wide configuration
+项目经历
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**1.《Pink Man》2D游戏**
+·项目介绍:使用Unity引擎和C#语言开发了一款2D平台游戏。项目的主要目标是创建一个流畅且具有挑战性的2D游戏，玩家移动、跳跃、收集物品和关卡切换等功能。
+·项目开发:使用UnityAnimator控制玩家的动画状态(静止、跑动、跳跃、下落)，实现了不同状态的动画切换。配置了Rigidbodv2D和BoxColider2D组件，确保玩家在游戏物理环境中的行为符合预期。编写脚本实现了玩家与地面、陷阱和收集物品的碰撞检测，并处理相应的游戏逻辑。为公司元宇宙的开发提供该项目的接口，并且成功上线公司平台。
+·项目调试:使用Unity的调试工具和日志输出定位并修复开发过程中的各类问题确保游戏的稳定性和流畅性
+·使用技术:Unity引擎、C#、UnityAnimator和Animation系统、AudioSource音效控制、Physics2D和Collider2D碰撞检测。
+**2.数复古韵——基于LiDAR数字三维重构的文物艺术化展示（项目负责人）**
+· 项目介绍: 使用MeshLab将文物3D建模的GLB文件附着点云，并通过TouchDesigner转换为PLY文件。项目目标是实现文物的艺术化效果处理，尤其是文物的破碎、复原及粒子化效果。
+· 项目开发: 使用MeshLab对GLB文件进行点云附着，并将其导出为PLY文件。在TouchDesigner中导入PLY文件，通过Python编程实现对艺术化效果的控制。在粒子化效果处理中，使用Python脚本控制粒子的生成、运动、生命周期和轨迹。通过自定义Python脚本调整粒子的速度、颜色和大小，模拟文物破碎和复原过程中的细节效果。
+· 项目调试: 使用TouchDesigner的调试工具进行实时渲染和效果预览，反复调试文物的破碎、复原及粒子化过程，确保最终效果的视觉表现符合预期。
+· 使用技术: MeshLab、TouchDesigner、GLB格式、PLY格式、3D点云处理、粒子系统渲染。
+**3.舆情瞭望——基于SnowNLP的网络空间舆情检测分析系统（项目负责人）**
+·爬取数据：多类型数据采集：采集微博文章和评论的多维数据，包括点赞数、评论数、转发数、地区、文本内容等，全面呈现微博动态信息。动态网页抓取与解析：通过调用微博API，解析嵌套JSON结构并提取关键字段，利用分页机制实现实时、连续的数据采集。数据存储与管理：将文章和评论数据分别存储于CSV文件，结构化存储便于后续分析。自动化与定时抓取：实现自动化、定时抓取功能，通过控制请求频率，规避反爬机制。
+·项目开发：完成了Flask框架、虚拟环境配置及登录注册功能的开发。前端使用ECharts进行数据可视化，基于Flask框架搭建了整个系统，完成了虚拟环境的配置和登录注册功能。后端实现了与MySQL数据库的交互，负责处理数据的增删改查操作，确保数据能够被高效管理和存储。实现了基于SnowNLP的词频统计和情感标注，在训练NLP情感分析模型时，初始模型的表现不佳。通过调整数据集、优化模型参数，尤其是在特征提取和情感分类算法上进行改进，最终提升了27%的准确度。用于对微博文章进行情感分析，首页和热词统计页面搭建完成，支持对热词数据的图表展示。
+·项目调试：使用Flask的日志和调试工具解决了开发过程中遇到的各类问题，确保项目的稳定性和功能实现。
+技术栈：Flask、Mysql、NLP、SnowNLP、ecahrts组件库
 
-Create content & metadata
+实践经历
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**1.中北大学大数据与人工智能双创实验室--实验室负责人（2024年9月--2026年9月）**
+负责实验室项目管理及日常运行，在职期间实验室获得省级以上赛事100余项。
+带领实验室新学员进行软件工程专业各个领域的入门学习及实战，研究方向有深度学习、大模型的应用开发等。
+[**2.奇安信科技集团股份有限公司--校园大使（2024年04月--2025年04月）**](/images/qianxin.png)
+**3.中北大学就业协会外联部副部长**
+**4.智慧XX科技有限公司实习生（2024年07月--2024年08月）**
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+荣誉获奖
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**国家级奖项**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**省级奖项**
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**校级奖项**
+
+**本科期间所获荣誉**
+
