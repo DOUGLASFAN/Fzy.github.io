@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "fan.JPG"
+  avatar           : "/images/fan.JPG"
   name             : "范振宇"
   pronouns         : # example: "she/her"  
   bio              : "work hard, play harder."
