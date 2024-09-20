@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-
+  
 
 教育背景
 ======
