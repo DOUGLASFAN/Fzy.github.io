@@ -16,7 +16,7 @@ redirect_from:
 
 GPA：3.89
 
-软件工程本科
+软件工程
 (Software engineering)
 
 
@@ -24,17 +24,17 @@ GPA：3.89
 ======
 ★拥有甲骨文云架构数据基础认证、Databricks生成式人工智能基础、AWS Educate 安全性入门等认证;
 
-★掌握Python的异常处理，面向对象编程，Json数据的处理，掌握pyecharts、echarts等可视化图表库，熟悉flask框架搭建，掌握前后端分离流程，了解机器学习的基本知识，熟悉SnowNLP等技术；
+★掌握Python的异常处理，面向对象编程，Json数据的处理，掌握pyecharts、echarts等可视化图表库，熟悉flask框架搭建，掌握前后端分离流程，了解机器学习的基本知识，熟悉SnowNLP等技术;
 
 ★掌握Java基本知识，熟悉流程控制、常用API、集合框架、IO流、文件、日志、多线程、网络通讯等技术;
 
-★掌握前端 Vue.js, HTML, CSS, JavaScript, ElementUI, Ajax, Axios等主流技术；
+★掌握前端 Vue.js, HTML, CSS, JavaScript, ElementUI, Ajax, Axios等主流技术;
 
 ★掌握后端：SpringBoot, SpringMVC, JDBC, MyBatis, MySQL, SSM(Spring,SpringMVC,MyBatis),  Filter, Interceptor;
 
 ★掌握基本企业开发流程：需求分析,数据库设计,接口文档,功能实现,测试,会话跟踪与令牌验证(Cookie,Session,JWT)，IOC,DI(Spring),数据库表设计;
 
-★掌握C++、C#、Java基本的语法结构，并实际应用到项目中：基于EasyX的飞机订票系统;《Pink Man》游戏;
+★掌握C++、C#、Java基本的语法结构，并实际应用到项目中;
 
 项目经历
 ------
@@ -66,7 +66,7 @@ GPA：3.89
 
 **项目调试**：使用Flask的日志和调试工具解决了开发过程中遇到的各类问题，确保项目的稳定性和功能实现。
 
-**技术栈**：Flask、Mysql、NLP、SnowNLP、ecahrts组件库
+**技术栈**：Flask、Mysql、NLP、SnowNLP、ecahrts组件库。
 
 实践经历
 ------
