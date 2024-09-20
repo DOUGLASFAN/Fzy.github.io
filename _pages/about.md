@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-work hard, play harder.
+
 
 教育背景
 ======
