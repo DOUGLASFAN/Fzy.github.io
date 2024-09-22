@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-欢迎来到我的主页
+work hard, play harder.
 
 教育背景
 ======
